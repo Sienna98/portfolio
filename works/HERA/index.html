@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HERA</title>
+  <link rel="shortcut icon" href="images/hera.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'/>
+  <!-- CSS 연결 -->
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+  <!-- 배경동영상 -->
+  <div class="vid">
+    <video autoplay muted loop poster="images/back-img.jpg">
+      <source src="media/HERA.mp4"></video>
+  </div>
+
+  <!-- 배경패턴 -->
+  <div class="layer"></div>
+
+  <!-- 로고 -->
+  <div id="logo">
+    <img src="images/logo-3.png" alt="헤라">
+  </div>
+
+  <!-- 헤더(내비게이션) -->
+  <header>
+    <!-- ul#gnb>(li>a>em{메인메뉴$})*5 -->
+    <ul id="gnb">
+      <li><a href="#"><em>MainMenu1</em></a>
+        <ul>
+          <li><a href="#"><em>SubMenu1</em></a></li>
+          <li><a href="#"><em>SubMenu2</em></a></li>
+          <li><a href="#"><em>SubMenu3</em></a></li>
+          <li><a href="#"><em>SubMenu4</em></a></li>
+        </ul>
+      </li>
+      <li><a href="#"><em>MainMenu2</em></a>
+        <!-- ul>(li>a>em{서브메뉴$})*4 -->
+        <ul>
+          <li><a href="#"><em>SubMenu1</em></a></li>
+          <li><a href="#"><em>SubMenu2</em></a></li>
+          <li><a href="#"><em>SubMenu3</em></a></li>
+          <li><a href="#"><em>SubMenu4</em></a></li>
+        </ul>
+      </li>
+      <li><a href="#"><em>MainMenu3</em></a>
+        <ul>
+          <li><a href="#"><em>SubMenu1</em></a></li>
+          <li><a href="#"><em>SubMenu2</em></a></li>
+          <li><a href="#"><em>SubMenu3</em></a></li>
+          <li><a href="#"><em>SubMenu4</em></a></li>
+        </ul>
+      </li>
+      <li><a href="#"><em>MainMenu4</em></a>
+        <ul>
+          <li><a href="#"><em>SubMenu1</em></a></li>
+          <li><a href="#"><em>SubMenu2</em></a></li>
+          <li><a href="#"><em>SubMenu3</em></a></li>
+          <li><a href="#"><em>SubMenu4</em></a></li>
+        </ul>
+      </li>
+      <li><a href="#"><em>MainMenu5</em></a>
+        <ul>
+          <li><a href="#"><em>SubMenu1</em></a></li>
+          <li><a href="#"><em>SubMenu2</em></a></li>
+          <li><a href="#"><em>SubMenu3</em></a></li>
+          <li><a href="#"><em>SubMenu4</em></a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+
+  <!-- SNS -->
+  <ul id="sns">
+    <!-- (li>a>i.fa.fa-)*3 -->
+    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+    <li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+  </ul>
+
+   <!-- 우측 사이드 배너 -->
+  <div id="side">
+    <!-- 배너 -->
+    <div class="con">
+      <!-- (p>em>{배너$}>a>img[src=images/ban$.png])*3 -->
+      <p>
+        <em>
+          Banner1<a href="#"><img src="images/2.jpg" alt=""></a>
+        </em>
+      </p>
+      <p>
+        <em>
+          Banner2<a href="#"><img src="images/3.jpg" alt=""></a>
+        </em>
+      </p>
+      <p>
+        <em>
+          Banner3<a href="#"><img src="images/5.jpg" alt=""></a>
+        </em>
+      </p>
+    </div>
+
+    <!-- 모션아이콘(<<) -->
+    <div class="btn">
+      <!-- i.fa.fa-angle-double-left*3 -->
+      <i class="fa fa-angle-double-left"></i>
+      <i class="fa fa-angle-double-left"></i>
+      <i class="fa fa-angle-double-left"></i>
+    </div>
+  </div>
+</body>
+
+</html>

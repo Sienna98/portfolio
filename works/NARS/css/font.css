@@ -1,0 +1,15 @@
+/* 구글 웹폰트 추가
+  - 영문:Poiret One
+  - 한글:Noto Sans KR
+  기본 글자 크기 : 14px
+  기본 줄 간격 : 1.5
+  기본 글자 색상 : #333 */
+
+@import url('http://fonts.googleapis.com/css?family=Noto+Sans+KR|Poiret+One&display=swap');
+
+html {
+  font-family: 'Poiret One', 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
