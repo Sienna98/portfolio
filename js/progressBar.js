@@ -176,30 +176,30 @@ $(function () {
     //브라우저의 스크롤 위치
     var bt = $(this).scrollTop();
 
-    console.log(p1ht);
-    console.log(p2ht);
-    console.log(bt);
+    // console.log(p1ht);
+    // console.log(p2ht);
+    // console.log(bt);
     //1페이지 높이보다 크면 시작
     if (bt > p1ht + p2ht +350) {
       bar1.text.style.fontFamily = 'Raleway, sans-serif';
       bar1.text.style.fontSize = '2rem'
-      bar1.animate(0.7); //1.1(0%)~1.0(100%)
+      bar1.animate(0.9); //1.1(0%)~1.0(100%)
 
       bar2.text.style.fontFamily = 'Raleway, sans-serif';
       bar2.text.style.fontSize = '2rem'
-      bar2.animate(0.8); //1.1(0%)~1.0(100%)
+      bar2.animate(0.9); //1.1(0%)~1.0(100%)
 
       bar3.text.style.fontFamily = 'Raleway, sans-serif';
       bar3.text.style.fontSize = '2rem'
-      bar3.animate(0.8); //1.1(0%)~1.0(100%)
+      bar3.animate(0.6); //1.1(0%)~1.0(100%)
 
       bar4.text.style.fontFamily = 'Raleway, sans-serif';
       bar4.text.style.fontSize = '2rem'
-      bar4.animate(0.7); //1.1(0%)~1.0(100%)
+      bar4.animate(1.0); //1.1(0%)~1.0(100%)
 
       bar5.text.style.fontFamily = 'Raleway, sans-serif';
       bar5.text.style.fontSize = '2rem'
-      bar5.animate(0.5); //1.1(0%)~1.0(100%)
+      bar5.animate(0.9); //1.1(0%)~1.0(100%)
 
     }
 

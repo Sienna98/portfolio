@@ -26,7 +26,7 @@ body * {
   box-sizing: border-box;
 }
 
-.clearfix::after {
+/* .clearfix::after {
   content: '';
   display: block;
   clear: both;
@@ -34,8 +34,22 @@ body * {
 
 .lt {
   float: left;
-}
+} */
 
+.flex {
+  display: flex;
+}
+.seac {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cc {
+  justify-content: center;
+  align-items: center;
+}
+.fw {
+  flex-wrap: wrap;
+}
 .throw {
   display: none;
 }
@@ -67,6 +81,10 @@ header {
 .header .nav {
   width: 950px;
 }
+
+#gnb {
+  height: 100%;
+}
 #gnb.sticky li {
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 0;
@@ -83,19 +101,19 @@ header {
 }
 
 .header .nav .gnb li {
-  width: 25%;
+  width: 100%;
   text-align: center;
   font-size: 1.1rem;
-  height: 81px;
-  line-height: 81px;
-  padding-top: 8px;
+  height: 100%;
+  /* line-height: 81px; */
+  /* padding-top: 8px; */
   cursor: pointer;
 }
 .header .nav .gnb li a {
   width: 100%;
   height: 100%;
   color: #fff;
-  display: block;
+  /* display: block; */
 }
 
 .header .nav .gnb li:hover {
