@@ -5,7 +5,7 @@ $(function () {
   var tpos = 500; //스크롤 위치(px)
   var et = 600; //효과시간(ms)
   var at = 2000; //애니메이션 시간(ms)
-  console.log($top);
+  // console.log($top);
   //TOP 버튼 숨기기
   $top.hide();
 
