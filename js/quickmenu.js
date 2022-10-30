@@ -38,7 +38,7 @@ $( function () {
     //브라우저 높이를 계산하여 #page1의 height 적용
     function fit () {
       var wh = $win.height();
-      $('.header&&.bg-img').css('height', wh);
+      $('.header'&&'.bg-img').css('height', wh);
     }
   //최초 로딩시 fit() 적용
   fit();
