@@ -148,9 +148,12 @@ header {
   padding-bottom: 80px;
 }
 
-.whoami-wrap>p {
+.whoami-wrap .whoami{
   width: 50%;
   text-align: center;
+}
+
+.whoami-wrap .whoami p {
   font-size: 3.5rem;
   font-weight: bold;
 }
